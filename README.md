@@ -21,23 +21,6 @@ Test it out at:
 1. [http://localhost:5001/users/ping](http://localhost:5001/users/ping)
 1. [http://localhost:5001/users](http://localhost:5001/users)
 
-### Kubernetes
-
-#### Minikube
-
-Install and run [Minikube](https://kubernetes.io/docs/setup/minikube/):
-
-1. Install a [Hypervisor](https://kubernetes.io/docs/tasks/tools/install-minikube/#install-a-hypervisor) (like [VirtualBox](https://www.virtualbox.org/wiki/Downloads) or [HyperKit](https://github.com/moby/hyperkit)) to manage virtual machines
-1. Install and Set Up [kubectl](https://kubernetes.io/docs/tasks/tools/install-kubectl/) to deploy and manage apps on Kubernetes
-1. Install [Minikube](https://github.com/kubernetes/minikube/releases)
-
-Start the cluster:
-
-```sh
-$ minikube start --vm-driver=virtualbox
-$ minikube dashboard
-```
-
 #### Volume
 
 Create the volume:
